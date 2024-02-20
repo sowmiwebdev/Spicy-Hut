@@ -179,9 +179,3 @@ footer{
     padding-top: 10px;
 }
 
-@media(max-width:456px)
-{
-    .maintext button{
-        margin-left: 120px;
-    }
-}
