@@ -11,6 +11,7 @@ body,h2{
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
 }
 
 .landing{
@@ -101,6 +102,11 @@ header h2 i,nav a i{
 
 }
 
+audio{
+    width: 50px;
+    border-radius: 80px;
+    margin-top: 5px;
+} 
 
 .menu{
     height: 100%;
@@ -113,30 +119,33 @@ header h2 i,nav a i{
 
 #menu-heading,#loc-heading{
     background: linear-gradient(to right, rgb(255, 217, 0),rgb(245, 60, 60));
-    color: rgba(255, 0, 0, 0.773);
+    color: rgba(245, 5, 5, 0.773);
     display: flex;
     justify-content: center;
+    padding-top: 10px;
 }
 
 .menu th{
     color: var(--green);
     padding: 2rem;
-}
+    text-align: center;
+} 
+
 table{
     width: 100%;
-    /* padding: 1rem; */
+    padding: 1rem;
 }
 .menu tr{
     margin-top: .8rem;
 }
-.menu td:nth-child(1){
+/* .menu td:nth-child(1){
     flex: 1;
     justify-self: left;
 }
 .menu td:nth-child(2){
     flex: 1;
     justify-self: right;
-}
+} */
 
 
 .locations{
@@ -146,6 +155,9 @@ table{
     flex-wrap: wrap;
 }
 
+#loc-heading{
+    padding-top: 10px;
+}
 .locations h2{
     color: var(--green);
     margin-bottom: .8em;
@@ -187,5 +199,24 @@ footer{
     .maindishes th{
         padding-left: 6rem;
     }
+    .Tandoor th{
+        padding-left: 6rem;
+    }
+    .ice-Cream th{
+        padding-left: 6rem;
+
+    }
+    .menu th{
+        /* width: 100%; */
+        text-align: center;
+    }
+    .landing{
+        padding: 10px;
+    }
+    .menu{
+        padding: 10px;
+    }
+    table{
+        width: 70%;
 } 
 
