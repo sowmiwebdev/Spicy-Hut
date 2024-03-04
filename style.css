@@ -142,8 +142,8 @@ audio{
     margin-left: 25px;
 }
 .maindishes img{
-    width: 250px;
-    margin-left: 50px;
+    width: 300px;
+    margin-left: 30px;
 }
 .Tandoor img{
     width: 290px;
@@ -174,14 +174,14 @@ table{
 .menu tr{
     margin-top: .8rem;
 }
-/* .menu td:nth-child(1){
+.menu td:nth-child(1){
     flex: 1;
     justify-self: left;
 }
 .menu td:nth-child(2){
     flex: 1;
     justify-self: right;
-} */
+}
 
 
 .locations{
