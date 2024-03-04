@@ -127,13 +127,15 @@ audio{
 
 .menu th{
     color: var(--green);
-    padding: 2rem;
+    padding: 1rem;
     text-align: center;
 } 
 
 .menu img{
     border-radius: 20px;
     text-align: center;
+    margin-top: 2rem;
+    height: 200px;
 }
 .starters img{
     width: 300px;
@@ -156,11 +158,11 @@ audio{
     margin-left: 20px;
 }
 .ice-Cream img{
-    width: 175px;
-    margin-left: 80px;
+    width: 280px;
+    margin-left: 20px;
 }
 .HotDrinks-Beverages img{
-    width: 250px;
+    width: 280px;
     margin-left: 30px;
 }
 
@@ -246,9 +248,6 @@ footer{
     }
     .landing{
         padding: 10px;
-    }
-    .menu{
-        /* padding: 10px; */
     }
     table{
         width: 70%;
