@@ -103,9 +103,6 @@ header h2 i,nav a i{
 }
 
 audio{
-    width: 50px;
-    border-radius: 80px;
-    margin-top: 5px;
     visibility: hidden;
 } 
 
