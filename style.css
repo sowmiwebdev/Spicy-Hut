@@ -102,9 +102,6 @@ header h2 i,nav a i{
 
 }
 
-audio{
-    visibility: hidden;
-} 
 
 .menu{
     height: 100%;
@@ -114,6 +111,11 @@ audio{
     background: linear-gradient(to right, rgb(255, 217, 0),rgb(245, 60, 60));
     color:var(--blue);
 } 
+
+audio{
+    width: 50px; 
+    border-radius: 20px;
+}
 
 #menu-heading,#loc-heading{
     background: linear-gradient(to right, rgb(255, 217, 0),rgb(245, 60, 60));
